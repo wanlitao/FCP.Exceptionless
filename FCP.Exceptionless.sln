@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCP.Exceptionless.NLog", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCP.Exceptionless.NLog.WebApi", "src\FCP.Exceptionless.NLog.WebApi\FCP.Exceptionless.NLog.WebApi.csproj", "{2FC3F54F-6EC8-4890-9024-C000FEEAA85C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCP.Exceptionless.WebApi", "src\FCP.Exceptionless.WebApi\FCP.Exceptionless.WebApi.csproj", "{0718B529-5D57-46BD-AE4D-217013D69093}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2FC3F54F-6EC8-4890-9024-C000FEEAA85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC3F54F-6EC8-4890-9024-C000FEEAA85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC3F54F-6EC8-4890-9024-C000FEEAA85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0718B529-5D57-46BD-AE4D-217013D69093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0718B529-5D57-46BD-AE4D-217013D69093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0718B529-5D57-46BD-AE4D-217013D69093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0718B529-5D57-46BD-AE4D-217013D69093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
