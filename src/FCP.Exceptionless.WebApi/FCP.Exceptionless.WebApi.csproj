@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Extensions\HttpConfigurationExceptionlessExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trace\ApiActionTraceToExceptionlessHelper.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

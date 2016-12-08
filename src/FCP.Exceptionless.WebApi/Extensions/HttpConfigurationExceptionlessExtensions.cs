@@ -13,7 +13,7 @@ namespace FCP.Exceptionless.WebApi
                 throw new ArgumentNullException(nameof(configuration));
 
             if (apiKey.isNullOrEmpty())
-                throw new ArgumentNullException(nameof(apiKey));            
+                throw new ArgumentNullException(nameof(apiKey));
 
             var exceptionlessClient = new ExceptionlessClient(config =>
             {
