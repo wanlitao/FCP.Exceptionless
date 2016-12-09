@@ -5,9 +5,9 @@ using System.Web.Http.Tracing;
 
 namespace FCP.Exceptionless.WebApi
 {
-    public static class ApiActionTraceToExceptionlessHelper
+    public static class HttpActionExecutedContextTraceExtensions
     {
-        public static Action<TraceRecord> BuildTraceRecordAction_AddExceptionlessRequestInfo(HttpActionExecutedContext actionExecutedContext)
+        public static Action<TraceRecord> BuildTraceRecordAction_AddExceptionlessRequestInfo(this HttpActionExecutedContext actionExecutedContext)
         {
             return (traceRecord) =>
             {
